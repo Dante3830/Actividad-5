@@ -154,13 +154,25 @@ alignment = 1
 
 [node name="SFXButton" type="CheckButton" parent="HBoxContainer/GamePanel/HBoxContainer" unique_id=920138501]
 unique_name_in_owner = true
+z_index = 1
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 button_pressed = true
 text = "SFX"
 
 [node name="BGMButton" type="CheckButton" parent="HBoxContainer/GamePanel/HBoxContainer" unique_id=659887759]
 unique_name_in_owner = true
+z_index = 1
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 button_pressed = true
 text = "BGM"
 
@@ -174,13 +186,13 @@ texture = ExtResource("2_fos0i")
 
 [node name="Position" type="Label" parent="Game/FrogIdle" unique_id=1002854419]
 unique_name_in_owner = true
-offset_left = -26.0
+offset_left = -76.0
 offset_top = 33.0
-offset_right = 14.0
+offset_right = 79.0
 offset_bottom = 56.0
-text = "X:
-Y:"
+text = "X: 0000 Y: 0000"
 label_settings = SubResource("LabelSettings_0xm2m")
+horizontal_alignment = 1
 
 [node name="SFX" type="AudioStreamPlayer" parent="Game/FrogIdle" unique_id=1285233022]
 stream = ExtResource("3_3dxm6")
