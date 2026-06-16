@@ -140,7 +140,7 @@ func _on_load_03_pressed() -> void:
 	if file_version < VERSION_03:
 		# Valores predeterminados para los datos que no existían en la versión 0.1
 		sfx_is_on = true
-		click_count = 0
+		click_count = data.get("score", 0)
 		_show_message("Partida versión 0.1 cargada exitosamente", false)
 	else:
 		# Versión 0.3: cargar TODOS los datos
